@@ -16,7 +16,7 @@ wget -c -O ./models/diffusion_models/wan2.1_t2v_1.3B_fp16.safetensors https://hu
 
 echo "Downloading Wan 2.1 Image-to-Video models using wget..."
 wget -c -O ./models/diffusion_models/wan2.1_i2v_480p_14B_fp16.safetensors https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/diffusion_models/wan2.1_i2v_480p_14B_fp16.safetensors
-wget -c -O ./models/clip_vision/clip_vision_h.safetensors https://huggingface.co/stabilityai/stable-diffusion-3-medium/resolve/main/clip_vision_h.safetensors
+wget -c -O ./models/clip_vision/clip_vision_h.safetensors https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors
 
 echo "Wan 2.1 model downloads using wget complete."
 
