@@ -33,7 +33,7 @@ Normally, a full month's usage of a T4 GPU with 6 VCPU cores, 16 GB RAM, and 100
 ## How to Install? (Takes only 15 mins!) <a name="installation"></a>
 
 1. Create a GCP compute engine instance(VM) 
-![alt text](https://github.com/FelipeLujan/comfyui-on-gcp/blob/main/src/Frame%201000001767.jpg?raw=true)
+![creating the google cloud instance to host comfy](https://github.com/FelipeLujan/comfyui-on-gcp/blob/main/src/Frame%201000001767.jpg?raw=true)
 
 3. Log in to your VM and execute the following commands:
 
@@ -50,7 +50,7 @@ Normally, a full month's usage of a T4 GPU with 6 VCPU cores, 16 GB RAM, and 100
     This will set up comfyUI, install popular extensions and model checkpoints, and include an automation script that automatically starts the comfyvm server whenever the VM is booted.
 
 4. Add a firewall rule to be able to access ComfyUI
-![alt text](https://github.com/FelipeLujan/comfyui-on-gcp/blob/main/src/Frame%201000001767.jpg?raw=true)
+![Allowing access to comfy](https://github.com/FelipeLujan/comfyui-on-gcp/blob/main/src/Frame%201000001768.jpg?raw=true)
 
 
 
