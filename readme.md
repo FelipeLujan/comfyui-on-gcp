@@ -39,12 +39,12 @@ Normally, a full month's usage of a T4 GPU with 6 VCPU cores, 16 GB RAM, and 100
 
     ```bash
     git clone https://github.com/FelipeLujan/comfyui-on-gcp
-    chmod +x ./comfyui-on-cloud/src/install.sh
-    chmod +x ./comfyui-on-cloud/src/virgin_vm.sh
+    chmod +x ./comfyui-on-gcp/src/install.sh
+    chmod +x ./comfyui-on-gcp/src/virgin_vm.sh
   
-    ./comfyui-on-cloud/src/virgin_vm.sh # run this only for new VM. This will install miniconda, cuda 11.8, torch.  
+    ./comfyui-on-gcp/src/virgin_vm.sh # run this only for new VM. This will install miniconda, cuda 11.8, torch.  
     source ~/.bashrc 
-    ./comfyui-on-cloud/src/install.sh
+    ./comfyui-on-gcp/src/install.sh
     ```
 
     This will set up comfyUI, install popular extensions and model checkpoints, and include an automation script that automatically starts the comfyvm server whenever the VM is booted.
