@@ -9,9 +9,9 @@ mkdir -p ../ComfyUI/workflows/ltx/
 # LTX Video Models (v0.9.6)
 echo "Downloading LTX Video models (v0.9.6)..."
 # Main model
-wget -c -O ./models/checkpoints/ltx-video-2b-v0.9.6.safetensors https://huggingface.co/Lightricks/LTX-Video/resolve/main/ltx-video-2b-v0.9.6.safetensors
+wget -c -O ./models/checkpoints/ltx-video-2b-v0.9.6.safetensors https://huggingface.co/Lightricks/LTX-Video/resolve/main/ltxv-2b-0.9.6-dev-04-25.safetensors
 # Distilled model
-wget -c -O ./models/checkpoints/ltx-video-2b-distilled-v0.9.6.safetensors https://huggingface.co/Lightricks/LTX-Video/resolve/main/ltx-video-2b-distilled-v0.9.6.safetensors
+wget -c -O ./models/checkpoints/ltx-video-2b-distilled-v0.9.6.safetensors https://huggingface.co/Lightricks/LTX-Video/resolve/main/ltxv-2b-0.9.6-distilled-04-25.safetensors
 
 # T5 Text Encoder (google_t5-v1_1-xxl_encoderonly)
 echo "Downloading T5 text encoder..."
