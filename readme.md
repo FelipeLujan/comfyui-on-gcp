@@ -32,8 +32,10 @@ Normally, a full month's usage of a T4 GPU with 6 VCPU cores, 16 GB RAM, and 100
 
 ## How to Install? (Takes only 15 mins!) <a name="installation"></a>
 
-1. Create a GCP compute engine instance(VM) and Install the google CLI on your local machine(***details below***).
-2. Log in to your VM and execute the following commands:
+1. Create a GCP compute engine instance(VM) 
+![alt text](https://github.com/FelipeLujan/comfyui-on-gcp/blob/main/src/Frame%201000001767.jpg?raw=true)
+
+3. Log in to your VM and execute the following commands:
 
     ```bash
     git clone https://github.com/karaposu/comfyui-on-cloud
