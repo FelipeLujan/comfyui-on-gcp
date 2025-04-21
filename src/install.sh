@@ -31,6 +31,9 @@ echo " "
 
 cp comfyui-on-gcp/src/install_extensions.sh ComfyUI
 cp comfyui-on-gcp/src/install_checkpoints.sh ComfyUI
+cp comfyui-on-gcp/src/install_checkpoints_Hunyuan.sh ComfyUI
+cp comfyui-on-gcp/src/install_checkpoints_wan.sh ComfyUI
+cp comfyui-on-gcp/src/install_checkpoints_LTX.sh ComfyUI
 
 echo " "
 echo " ---------------- automation scripts copied to comfyui directory "
