@@ -177,13 +177,13 @@ Feel free to inspect all files or ask for clarification to ensure safety and sug
 2. Clone the repo for ComfyUI installation scripts and execute them:
 
     ```bash
-    git clone https://github.com/karaposu/comfyui-on-cloud
-    chmod +x ./comfyui-on-cloud/src/install.sh
-    chmod +x ./comfyui-on-cloud/src/virgin_vm.sh
+    git clone https://github.com/karaposu/comfyui-on-gcp
+    chmod +x ./comfyui-on-gcp/src/install.sh
+    chmod +x ./comfyui-on-gcp/src/virgin_vm.sh
   
-    ./comfyui-on-cloud/src/virgin_vm.sh # run this only for new VM. This will install miniconda, cuda 11.8, torch.  
+    ./comfyui-on-gcp/src/virgin_vm.sh # run this only for new VM. This will install miniconda, cuda 11.8, torch.  
     source ~/.bashrc 
-    ./comfyui-on-cloud/src/install.sh
+    ./comfyui-on-gcp/src/install.sh
     ```
 
     This process will automatically install a startup runner for the server and start the server. You can verify the installation by accessing `[external-ip-of-your-vm]:8188` in your browser to check if everything is working correctly.
