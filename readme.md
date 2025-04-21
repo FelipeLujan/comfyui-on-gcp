@@ -49,6 +49,10 @@ Normally, a full month's usage of a T4 GPU with 6 VCPU cores, 16 GB RAM, and 100
 
     This will set up comfyUI, install popular extensions and model checkpoints, and include an automation script that automatically starts the comfyvm server whenever the VM is booted.
 
+4. Add a firewall rule to be able to access ComfyUI
+![alt text](https://github.com/FelipeLujan/comfyui-on-gcp/blob/main/src/Frame%201000001767.jpg?raw=true)
+
+
 
 ## How to Use?<a name="usage"></a>
 
