@@ -40,6 +40,11 @@ cd ComfyUI
 
 chmod +x install_extensions.sh
 chmod +x install_checkpoints.sh
+chmod +x install_checkpoints_Hunyuan.sh
+chmod +x install_checkpoints_wan.sh
+chmod +x install_checkpoints_LTX.sh
+
+
 ./install_extensions.sh
 
 echo " "
