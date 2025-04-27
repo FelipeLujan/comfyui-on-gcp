@@ -56,6 +56,12 @@ echo " "
 #./install_checkpoints.sh
 #./install_checkpoints_big.sh
 
+./install_checkpoints_Hunyuan.sh
+./install_checkpoints_wan.sh
+./install_checkpoints_LTX.sh
+
+
+
 echo " "
 echo " ---------------- checkpoints installed "
 echo " "
